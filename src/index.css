@@ -1,0 +1,25 @@
+*{
+  font-family:Helvetica, sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel{
+  width: 30vw;
+  height: 30vh;
+  margin: -200px;
+  transition: all 1s;
+  transform: translateX(0px);
+}
+
+.panelMove{
+  transition: all 1s;
+  transform: translateX(-100px);
+}
